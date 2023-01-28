@@ -17,7 +17,7 @@ def get_prediction(payload: StockIn):
     ticker = payload.ticker
     days = payload.days
 
-    prediction_list = predict(ticker, days)
+    prediction_list = get_prediction(ticker, days)
 
     if not prediction_list:
         raise HTTPException(status_code=400, detail="Model not found.")
