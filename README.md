@@ -3,7 +3,7 @@
 
 The goal of this project is to deploy a stock prediction model as a RESTful API using FastAPI to AWS EC2, and make it available (i.e., public) to end users. 
 
-# Connect :electric_plug:
+## Connect :electric_plug:
 
 Run this CURL command in your terminal:
 
